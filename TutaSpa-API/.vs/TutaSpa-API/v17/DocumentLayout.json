@@ -1,14 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\DATN\\TutaSpa-API\\",
+  "WorkspaceRootPath": "D:\\FinalProject\\TutaSpa\\TutaSpa-API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2D0CB9C-C19C-4F5C-A645-33761A320F03}|TutaSpa-API.csproj|d:\\datn\\tutaspa-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2D0CB9C-C19C-4F5C-A645-33761A320F03}|TutaSpa-API.csproj|d:\\finalproject\\tutaspa\\tutaspa-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2D0CB9C-C19C-4F5C-A645-33761A320F03}|TutaSpa-API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2D0CB9C-C19C-4F5C-A645-33761A320F03}|TutaSpa-API.csproj|d:\\datn\\tutaspa-api\\tutaspa-api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{A2D0CB9C-C19C-4F5C-A645-33761A320F03}|TutaSpa-API.csproj|solutionrelative:tutaspa-api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+      "AbsoluteMoniker": "D:0:0:{A2D0CB9C-C19C-4F5C-A645-33761A320F03}|TutaSpa-API.csproj|d:\\finalproject\\tutaspa\\tutaspa-api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2D0CB9C-C19C-4F5C-A645-33761A320F03}|TutaSpa-API.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2D0CB9C-C19C-4F5C-A645-33761A320F03}|TutaSpa-API.csproj|d:\\finalproject\\tutaspa\\tutaspa-api\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2D0CB9C-C19C-4F5C-A645-33761A320F03}|TutaSpa-API.csproj|solutionrelative:services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,36 +26,45 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "TutaSpa-API.http",
-              "DocumentMoniker": "D:\\DATN\\TutaSpa-API\\TutaSpa-API.http",
-              "RelativeDocumentMoniker": "TutaSpa-API.http",
-              "ToolTip": "D:\\DATN\\TutaSpa-API\\TutaSpa-API.http",
-              "RelativeToolTip": "TutaSpa-API.http",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-05-26T14:05:43.558Z",
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\FinalProject\\TutaSpa\\TutaSpa-API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "D:\\FinalProject\\TutaSpa\\TutaSpa-API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwBwAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T04:52:41.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "D:\\FinalProject\\TutaSpa\\TutaSpa-API\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "Services\\TokenService.cs",
+              "ToolTip": "D:\\FinalProject\\TutaSpa\\TutaSpa-API\\Services\\TokenService.cs",
+              "RelativeToolTip": "Services\\TokenService.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAAAG8AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T04:49:55.662Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\DATN\\TutaSpa-API\\Program.cs",
+              "DocumentMoniker": "D:\\FinalProject\\TutaSpa\\TutaSpa-API\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\DATN\\TutaSpa-API\\Program.cs",
+              "ToolTip": "D:\\FinalProject\\TutaSpa\\TutaSpa-API\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADQAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T14:04:32.397Z",
+              "WhenOpened": "2025-05-29T04:47:32.367Z",
               "EditorCaption": ""
             }
           ]
