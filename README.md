@@ -1,7 +1,7 @@
 # 🌿 TutaSpa – Spa Management System
 
-**TutaSpa** là hệ thống quản lý spa toàn diện được phát triển theo mô hình **Team project (7 thành viên)**.  
-Mục tiêu là hỗ trợ **khách hàng đặt lịch online**, **nhân viên thu ngân xử lý thanh toán**, và **chủ spa quản lý hóa đơn & lịch hẹn**.  
+**TutaSpa** là hệ thống quản lý spa toàn diện được phát triển theo mô hình **Team Project (7 thành viên)**.  
+Mục tiêu: hỗ trợ **khách hàng đặt lịch online**, **nhân viên thu ngân xử lý thanh toán**, và **chủ spa quản lý hóa đơn & lịch hẹn**.  
 
 ---
 
@@ -9,9 +9,9 @@ Mục tiêu là hỗ trợ **khách hàng đặt lịch online**, **nhân viên 
 - **Đặt lịch trực tuyến**: khách hàng chọn dịch vụ, khung giờ, ghi chú, số điện thoại.
 - **Quản lý lịch hẹn**: xác nhận, huỷ, cập nhật trạng thái realtime với **SignalR**.
 - **Thanh toán tại quầy**: thêm dịch vụ/sản phẩm, chọn phương thức thanh toán.
-- **Tích hợp PayOS API**: hỗ trợ thanh toán trực tuyến, chuyển khoản, hoặc tiền mặt.
+- **Tích hợp PayOS API**: hỗ trợ thanh toán trực tuyến, chuyển khoản hoặc tiền mặt.
 - **Quản lý hóa đơn**: tạo, xem chi tiết, lọc theo thời gian, chỉnh sửa thông tin khách hàng.
-- **Giao diện người dùng hiện đại**: xây dựng bằng Vue.js và Bootstrap.
+- **Giao diện hiện đại**: xây dựng bằng Vue.js và Bootstrap.
 
 ---
 
@@ -27,10 +27,14 @@ Mục tiêu là hỗ trợ **khách hàng đặt lịch online**, **nhân viên 
 ## ⚙️ Installation Guide
 
 ### 1. Clone project
-git clone https://github.com/tutai13/tutaspa
-🔑 Tạo file appsettings.json
-Vì file này được .gitignore, bạn cần tự tạo file appsettings.json trong thư mục backend với cấu trúc sau:
 ```bash
+git clone https://github.com/tutai13/tutaspa
+```
+
+### 2. Cấu hình Backend
+Tạo file **`appsettings.json`** trong thư mục `backend` (vì file này đã bị `.gitignore`) với cấu trúc sau:
+
+```json
 {
   "GmailSettings": {
     "GmailAddress": "your_gmail@gmail.com",
@@ -66,28 +70,36 @@ Vì file này được .gitignore, bạn cần tự tạo file appsettings.json 
   },
   "AllowedHosts": "*"
 }
-
 ```
 
-👉 Nhớ thay your_xxx bằng thông tin thật trong môi trường của bạn.
+👉 Nhớ thay `your_xxx` bằng thông tin thật trong môi trường của bạn.
 
-### 2.Frontend Setup (Vue.js)  
-cd frontend  
-npm install  
-npm run dev
-
-🗄 Database
+### 3. Database Migration
 Hệ thống sử dụng SQL Server.  
-Connection string chỉnh trong appsettings.json.  
-Hãy xóa folder migration tron api, và tạo lại bằng lệnh  
-Add-migration init  
-Update-database  
-📷 Screenshots
-có thể vào hai link này để xem chi tiết  
-**nếu đăng ký k được thì hãy vào tk này**  
-tk: 0327206727 // mk: Xloc2005@  
-https://tutaspa.vercel.app/  
-https://tutaspaadmin.vercel.app/
+Trong thư mục backend, xóa folder `Migrations` nếu có, sau đó chạy lệnh:  
+```bash
+Add-Migration init
+Update-Database
+```
+
+### 4. Frontend Setup (Vue.js)
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+---
+
+## 📷 Demo & Screenshots
+
+- Trang khách hàng: [https://tutaspa.vercel.app/](https://tutaspa.vercel.app/)  
+- Trang quản trị: [https://tutaspaadmin.vercel.app/](https://tutaspaadmin.vercel.app/)  
+- **Tài khoản demo (nếu không đăng ký được):**  
+  - Username: `0327206727`  
+  - Password: `Xloc2005@`  
+
+### Giao diện minh họa
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/08234e41-eef7-4c14-b976-769ef20e9a20" />
 <img width="1920" height="911" alt="image" src="https://github.com/user-attachments/assets/8f7e7f74-5cef-40b3-b96a-55d1a1225b79" />
@@ -98,10 +110,8 @@ https://tutaspaadmin.vercel.app/
 <img width="1920" height="1079" alt="image" src="https://github.com/user-attachments/assets/45ffcfab-8b9c-4409-baa8-fa92f9874f2b" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/082f6712-ba00-4403-9050-6f80923c65b7" />
 
+---
 
-
-
-
-
-
-
+## 👨‍💻 Tác giả
+**Team Project – 7 thành viên**  
+Quản lý repo chính: [Đỗ Tuấn Tài](https://github.com/tutai13)  
